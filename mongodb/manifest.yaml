@@ -9,7 +9,7 @@ metadata:
     tier: db
 spec:
   ports:
-  -protocol: TCP
+  - protocol: TCP
     port: 27017
     targetPort: 27017
   clusterIP: None #Headless service

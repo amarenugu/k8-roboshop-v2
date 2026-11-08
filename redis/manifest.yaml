@@ -53,7 +53,7 @@ spec:
         component: redis
         tier: db    
   serviceName: "redis-headless"
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
